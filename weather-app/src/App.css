@@ -1,0 +1,47 @@
+.App {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Start items from the top */
+  align-items: center; /* Center items horizontally */
+  padding-top: 50px; /* Add padding at the top */
+  background-image: url('C:\Users\adith\React Repository\images\ihfnlpbze7o01.jpg'); /* Path to your background image */
+  background-size: cover; /* Makes sure the image covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.Location-input {
+  width: 300px; /* Adjust as needed */
+  padding: 10px 20px;
+  margin-bottom: 20px; /* Add space below the input box */
+  border: none;
+  border-radius: 50px; /* A high border-radius value to create an oval shape */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  outline: none;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.header {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.card-container {
+  text-align: center;
+  margin-top: 10px; /* Reduce spacing between items */
+}
+
+.card {
+  width: 300px; /* Match the width of the input box */
+  border: 1px solid #d7d7e0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-bold {
+  font-weight: bold;
+}
